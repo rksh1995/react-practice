@@ -1,0 +1,12 @@
+body {
+  font-family: Arial;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.btn {
+  display: flex;
+  gap: 5px;
+  padding: 28px;
+  max-width: 40%;
+}
