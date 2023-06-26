@@ -43,7 +43,12 @@ const Home = () => {
         {/* {JSON.stringify(listImages)} */}
       </div>
       {/* passing function as a props */}
-      <Pagination prevClick={handlePrevClick} nextClick={handleClickNext} />
+      <Pagination
+        prevClick={handlePrevClick}
+        nextClick={handleClickNext}
+        cpage={currentPage}
+        json={imageJson}
+      />
     </>
   );
 };

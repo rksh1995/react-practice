@@ -10,3 +10,7 @@ body {
   padding: 28px;
   max-width: 40%;
 }
+.disabled{
+  background-color:gray;
+  color: white;
+}
